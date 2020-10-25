@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "sibar@naver.com",
+      "pwd1": "sibar",
+      "nick": "sibar"
+    },
+    {
+      "email": "sibar2@naver.com",
+      "pwd1": "1234",
+      "nick": "sibar2"
+    },
+    {
+      "email": "sibar3@naver.com",
+      "pwd1": "1234",
+      "nick": "sibar3"
+    }
+  ]
+}
