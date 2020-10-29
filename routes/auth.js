@@ -6,26 +6,26 @@ const adapter = new FileSync('db.json');
 const db = low(adapter);
 
 
-router.post('/register',(req,res)=>{
-    
-    const {email,pwd1,nick} =req.body;
+router.post('/register_process',(req,res)=>{
+    const {email,pwd,nick} =req.body;
 
     const user={
         email:email,
-        pwd1:pwd1,
+        pwd:pwd,
         nick:nick,
     }
 db.get('users').push(user).write();
-req.login(user,(err)=>{
-    res.redirect('/');
+    req.login(user,(err)=>{
+        res.redirect('/');
+})
 })
 
+router.post('/login_process',(req,res)=>{
+   res.redirect('/main');
 });
 
 router.get('/register',(req,res)=>{
     res.render('register');
 })
-router.post('/login_process',(req,res)=>{
-    res.render('main')
-})
+
 module.exports=router;

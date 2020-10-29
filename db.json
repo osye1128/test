@@ -1,39 +1,5 @@
 {
   "users": [
-    {
-      "email": "sibar@naver.com",
-      "pwd1": "sibar",
-      "nick": "sibar"
-    },
-    {
-      "email": "sibar2@naver.com",
-      "pwd1": "1234",
-      "nick": "sibar2"
-    },
-    {
-      "email": "sibar3@naver.com",
-      "pwd1": "1234",
-      "nick": "sibar3"
-    },
-    {
-      "email": "main@naver.com",
-      "pwd1": "main",
-      "nick": "main"
-    },
-    {
-      "email": "1@naver.com",
-      "pwd1": "1",
-      "nick": "1"
-    },
-    {
-      "email": "2@naver.com",
-      "pwd1": "2",
-      "nick": "2"
-    },
-    {
-      "email": "2@naver.com",
-      "pwd1": "2",
-      "nick": "2"
-    }
+    
   ]
 }
